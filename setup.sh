@@ -2,8 +2,12 @@
 
 HOST=`uname`
 if [ $HOST = "Darwin" ]; then
+	# Install brew
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+	brew update
 	brew install git
 elif [ $HOST = "Linux" ]; then
+	sudo apt update
 	sudo apt install -y git
 fi
 
