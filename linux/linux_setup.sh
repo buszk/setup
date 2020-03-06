@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo apt install -y vim gcc make bison build-essential gettext git pkg-config python ssh subversion wget time curl zsh ctags vim openssh-server flex
+sudo apt install -y vim gcc make bison build-essential gettext git pkg-config \
+    python ssh subversion wget time curl zsh ctags vim openssh-server flex net-tools
 
 # Organize directories
 mkdir ~/Workspace/
