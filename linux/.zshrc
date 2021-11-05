@@ -357,5 +357,5 @@ PROMPT='${PROMPT_LINE}%B%F{green}:%f%b${PR_PWDCOLOR}%~${PR_RESET}${vcs_info_msg_
 alias dgit="git config --add oh-my-zsh.hide-status 1 && git config --add oh-my-zsh.hide-dirty 1"
 alias egit="git config --add oh-my-zsh.hide-status 0 && git config --add oh-my-zsh.hide-dirty 0"
 
-# Disable shared history
-unsetopt shared_history
+# Disable share history
+unsetopt share_history
