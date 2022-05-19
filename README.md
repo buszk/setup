@@ -4,5 +4,5 @@ Simply run the following script to setup a new machine (either host machine or V
 Now supported Debian/Ubuntu and OSX.
 
 `
-bash -c "$(curl https://raw.githubusercontent.com/buszk/setup/master/setup.sh)"
+sudo apt install -y curl && bash -c "$(curl https://raw.githubusercontent.com/buszk/setup/master/setup.sh)"
 `
